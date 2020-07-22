@@ -11,11 +11,22 @@
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
+
+    @yield('header')
+
 </head>
 <body>
-<div class="flex-center position-ref full-height">
-    <div class="content">
-        @yield('mainContent')
+<div class="d-flex flex-row justify-content-center">
+    <div class="main-container">
+        <div class="body-content">
+            @yield('mainContent')
+        </div>
+        <div class="footer-content">
+        </div>
+
     </div>
 </div>
 </body>

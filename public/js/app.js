@@ -37342,8 +37342,10 @@ $(function () {
     var res = document.execCommand('copy');
     window.getSelection().removeRange(seleccion);
     $("#msgCopyDone").removeClass("hidden");
+    $("#h3space").addClass("hidden");
     setTimeout(function () {
       $("#msgCopyDone").addClass("hidden");
+      $("#h3space").removeClass("hidden");
     }, 5000);
   });
   $('#passwordForm').on('submit', function (event) {

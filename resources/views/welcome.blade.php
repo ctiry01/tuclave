@@ -7,11 +7,11 @@
 @section('mainContent')
     <div class="banner-top">
         <div>
-            <h3 style="color: white" class="pt-4">clavesegura.es</h3>
+            <h3 style="color: white" class="pt-4 pl-3">clavesegura.es</h3>
         </div>
     </div>
     <div class="after-bannet-top pt-5">
-        <div class="pt-5 center-content text-center">
+        <div class="pt-0 pt-md-5 center-content text-center">
             <h1>Generador de contraseñas gratis</h1>
             <h3 class="pt-3">Tu clave segura en un solo click</h3>
             <h5 class="pt-3">Te damos la bienvenida al sitio web "tuclave". En esta página podrás crear todas tus
@@ -19,7 +19,7 @@
                 seguras. </h5>
 
         </div>
-        <div class="row pt-5 w-100">
+        <div class="row pt-0 pt-md-5 w-100">
             <div class="col-md-6 p-5">
                 <form method="post" id="passwordForm">
                     @csrf
@@ -28,7 +28,7 @@
                         <select class="form-control" id="longPassport">
                             <option value="4">4</option>
                             <option value="6">6</option>
-                            <option value="8">8</option>
+                            <option value="8" selected>8</option>
                             <option value="12">12</option>
                             <option value="24">24</option>
                         </select>
@@ -38,16 +38,17 @@
                         <select class="form-control" id="typePassword">
                             <option value="num">Solo números</option>
                             <option value="word">Solo letras</option>
-                            <option value="numWord">Letras y números</option>
+                            <option value="numWord" selected>Letras y números</option>
                             <option value="allChars">Todos los caracteres</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-primary w-100">Generar contraseña</button>
                 </form>
             </div>
-            <div class="col-md-6 p-5 d-flex flex-row align-items-end">
+            <div class="col-md-6 pt-0 pt-md-5 pl-5 pr-5 pb-5 pb-md-5 d-flex flex-row align-items-end">
                 <div class="d-flex flex-column w-100">
                     <h3 id="msgCopyDone" class="text-center hidden">Contraseña copiada!</h3>
+                    <h3 id="h3space">&nbsp;</h3>
                     <button id="copyButton" class="btn btn-light w-100 mb-3">Copiar contraseña en el portapapeles
                     </button>
                     <div class="password-box">

@@ -9,9 +9,11 @@ $(function () {
         window.getSelection().removeRange(seleccion);
 
         $("#msgCopyDone").removeClass("hidden");
+        $("#h3space").addClass("hidden");
 
         setTimeout(function () {
             $("#msgCopyDone").addClass("hidden");
+            $("#h3space").removeClass("hidden");
         }, 5000)
     });
 
@@ -33,7 +35,7 @@ $(function () {
             },
             success: function (response) {
                 $("#newPassword").text(response['password'])
-                $('#securityLevelBar').attr('aria-valuenow', response['securitylevel']).css('width', response['securitylevel']+'%');
+                $('#securityLevelBar').attr('aria-valuenow', response['securitylevel']).css('width', response['securitylevel'] + '%');
                 console.log(response['securitylevel']);
             },
         });

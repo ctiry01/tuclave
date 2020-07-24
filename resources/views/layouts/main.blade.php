@@ -12,6 +12,7 @@
         gtag('config', 'UA-52717485-5');
     </script>
 
+    <script data-ad-client="ca-pub-7124638110129138" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

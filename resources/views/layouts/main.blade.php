@@ -12,10 +12,10 @@
         gtag('config', 'UA-52717485-5');
     </script>
 
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Generador de contraseñas online</title>
+    <title>Generador contraseñas seguras</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">

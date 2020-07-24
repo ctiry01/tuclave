@@ -2,16 +2,22 @@
 
 @section('header')
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="description"
+          content="Generador de contraseñas gratuito. Genera una clave segura gratis en un solo click.">
+    <meta name="keywords"
+          content="generador de contraseñas, contraseña aleatoria, clave segura, constraseña gratis, tuclave, tuclavesegura">
 @endsection
 
 @section('mainContent')
     <div class="banner-top">
         <div>
-            <h3 style="color: white" class="pt-4 pl-3">clavesegura.es</h3>
+            <a href="{{ route('welcome') }}">
+                <h3 style="color: white" class="pt-4 pl-3">clavesegura.es</h3>
+            </a>
         </div>
     </div>
     <div class="after-bannet-top pt-5">
-        <div class="pt-0 pt-md-5 center-content text-center">
+        <div class="pt-0 pt-md-5 center-content text-center pl-1 pr-1">
             <h1>Generador de contraseñas gratis</h1>
             <h3 class="pt-3">Tu clave segura en un solo click</h3>
             <h5 class="pt-3">Te damos la bienvenida al sitio web "tuclave". En esta página podrás crear todas tus
@@ -59,7 +65,8 @@
                         <h6>Nivel de seguridad</h6>
                     </div>
                     <div class="progress">
-                        <div id="securityLevelBar" class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div id="securityLevelBar" class="progress-bar bg-warning" role="progressbar" style="width: 25%"
+                             aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
             </div>

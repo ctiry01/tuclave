@@ -16,8 +16,8 @@
             </a>
         </div>
     </div>
-    <div class="after-bannet-top pt-5">
-        <div class="pt-0 pt-md-5 center-content text-center pl-1 pr-1">
+    <div class="after-bannet-top pt-5 center-content">
+        <div class="pt-0 pt-md-5 text-center pl-1 pr-1">
             <h1>Generador de contraseñas gratis</h1>
             <h3 class="pt-3">Tu clave segura en un solo click</h3>
             <h5 class="pt-3">Te damos la bienvenida al sitio web "tuclave". En esta página podrás crear todas tus

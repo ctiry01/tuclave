@@ -9,18 +9,11 @@
 @endsection
 
 @section('mainContent')
-    <div class="banner-top">
-        <div>
-            <a href="{{ route('welcome') }}">
-                <h3 style="color: white" class="pt-4 pl-3">clavesegura.es</h3>
-            </a>
-        </div>
-    </div>
-    <div class="after-bannet-top pt-5 center-content">
+    <div class="after-header-menu pt-5 pb-5 center-content">
         <div class="pt-0 pt-md-5 text-center pl-1 pr-1">
             <h1>Generador de contraseñas gratis</h1>
             <h3 class="pt-3">Tu clave segura en un solo click</h3>
-            <h5 class="pt-3">Te damos la bienvenida al sitio web "tuclave". En esta página podrás crear todas tus
+            <h5 class="pt-3">Te damos la bienvenida al sitio web "tuclave.es". En esta página podrás crear todas tus
                 contraseñas
                 seguras. </h5>
 
@@ -70,21 +63,46 @@
                     </div>
                 </div>
             </div>
-            <div class="pl-5 pb-5">
-                <p>Consejos:</p>
+            <div class="pl-md-5 pb-md-5 col-12">
+                <h5>Consejos y buenas prácticas:</h5>
                 <ul>
                     <li>No repitas nunca la misma contraseña.</li>
-                    <li>Intenta usar distintos caracteres, mayusculas, minusculas, numeros...</li>
+                    <li>Intenta usar distintos caracteres, mayúsculas, minúsculas, números...</li>
                     <li>Utiliza siempre que puedas una longitud mínima de 8 caracteres.</li>
+                    <li>No utilices palabras reales, aunque éstas estén escritas al revés.</li>
+                    <li>Las contraseñas más utilizadas, suelen ser patrones de teclado como por ejemplo: qwerty.</li>
                     <li>Te reconemndamos utilizar un gestor de contraseñas como <a class="btn btn-link p-0"
                                                                                    target="_blank"
                                                                                    href="https://www.lastpass.com">Lastpass, </a><a
                             class="btn btn-link p-0" target="_blank" href="https://1password.com">1Password, </a><a
                             class="btn btn-link p-0" target="_blank"
                             href="https://keepass.info">Keepass... </a>
-                        para guardar tus contraseñas.
+                        para guardar todas tus contraseñas.
                     </li>
                 </ul>
+
+                <h5 class="pt-5">Sobre nosotros:</h5>
+                <p>Tuclave.es es una web totalmente gratis pensada para aquel usuario que necesita generear una
+                    contraseña segura de manera rápida.</p>
+                <p>Nuestras contraseñas, utilizan metodos aleatorios para generar las claves en función de la
+                    configuración que solicite previamente el usuario en cuanto a longitud y tipos de caracteres.</p>
+                <p>Os recordamos que el principal motivo de hackeo de contraseñas, es básicamente repetir la misma
+                    contraseña en distintos
+                    sitios y ésta que se lleve usando desde hace años atrás. Probablemente en uno de los sitios web ha
+                    habido una
+                    vulnerabilidad y una vez los atacantes roban la contraseña, simplemente usan la misma para
+                    acceder al resto de servicios web. También, un motivo muy común de hackeo de contraseñas, es usar
+                    patrones directamente relacionados con el usuario como por ejemplo el número de dni, fecha de
+                    cumpleaños, hijos.. Patrones altamente inseguros. Por estos motivos, en Tucalve.es de manera
+                    gratuita queremos
+                    proteger y aconsejar a los usuarios para evitar ser hackeados.</p>
+                <p>Las claves generadas son totalmente aleatorias y <b>no se guarda ningún tipo de información del
+                        usuario.</b></p>
+                <p>Esta web és solo una ayuda para crear claves seguras. En ningún caso <b>tuclave.es</b> se hace responsable sobre posibles
+                    consecuencias de usar una clave aleatoria generada en este mismo sitio.</p>
+                <p>Esta web ha sido creada para que la gente la pueda usar de manera gratuita, cualquier duda, pregunta,
+                    propuestas de mejora o soporte se pueden poner en contacto en la dirección de correo
+                    <a href="mailto: info@tuclave.es" class="btn btn-link p-0" target="_blank">info@tuclave.es.</a></p>
             </div>
         </div>
     </div>

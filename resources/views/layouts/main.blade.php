@@ -6,13 +6,15 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52717485-5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-52717485-5');
     </script>
-
-    <script data-ad-client="ca-pub-7124638110129138" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,14 +31,31 @@
 
     @yield('header')
 
+    {{--InfoLinks.com--}}
+    <script type="text/javascript"> var infolinks_pid = 3284087; var infolinks_wsid = 0; </script>
+    <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+    {{--End InfoLinks.com--}}
+
 </head>
 <body>
 <div class="d-flex flex-row justify-content-center">
     <div class="main-container">
+        <div class="header-menu">
+            <div>
+                <a href="{{ route('welcome') }}">
+                    <h3 style="color: white" class="pt-4 pl-3">tuclave.es</h3>
+                </a>
+            </div>
+        </div>
         <div class="body-content">
             @yield('mainContent')
         </div>
         <div class="footer-content">
+            <div class="pt-4">
+                <p style="color: white">Tuclave.es
+                    <small>&nbsp;-&nbsp;<script>document.write(new Date().getFullYear())</script></small>
+                </p>
+            </div>
         </div>
 
     </div>

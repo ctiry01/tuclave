@@ -9,7 +9,7 @@ export const MoreDetailsAndTerms = () => {
                 <li>Intenta usar distintos caracteres, mayúsculas, minúsculas, números...</li>
                 <li>Utiliza siempre que puedas una longitud mínima de 8 caracteres.</li>
                 <li>No utilices palabras reales, aunque éstas estén escritas al revés.</li>
-                <li>Las contraseñas más utilizadas, suelen ser patrones de teclado como por ejemplo: qwerty.</li>
+                <li>Las contraseñas más utilizadas, suelen ser patrones de teclado como por ejemplo: qwerty, asdf...</li>
                 <li>Te reconemndamos utilizar un gestor de contraseñas como &nbsp;
                     <a target="_blank" href="https://bitwarden.com/">BitWarden, </a>
                     <a target="_blank" href="https://www.lastpass.com">Lastpass, </a>
@@ -19,7 +19,7 @@ export const MoreDetailsAndTerms = () => {
                 </li>
             </ul>
             <h3>Sobre nosotros:</h3>
-            <p>Tuclave.es es una web totalmente gratis pensada para aquel usuario que necesita generear una contraseña
+            <p>Tuclave.es es una web totalmente gratuita pensada para aquel usuario que necesita generear una contraseña
                 segura de manera rápida.</p>
             <p>Nuestras contraseñas, utilizan metodos aleatorios para generar las claves en función de la configuración
                 que solicite previamente el usuario en cuanto a longitud y tipos de caracteres.</p>
@@ -35,7 +35,7 @@ export const MoreDetailsAndTerms = () => {
             <p>Esta web és solo una ayuda para crear claves seguras. En ningún caso tuclave.es se hace responsable sobre
                 posibles consecuencias de usar una clave aleatoria generada en este mismo sitio.</p>
             <p>Esta web ha sido creada para que la gente la pueda usar de manera gratuita, cualquier duda, pregunta,
-                propuestas de mejora o soporte se pueden poner en contacto en la dirección de correo</p>
+                propuestas de mejora o soporte se pueden poner en contacto en la dirección de correo <a href="mailto:info@tuclave.es" target="_blank">info@tuclave.es</a></p>
         </Wrapper>
     )
 }

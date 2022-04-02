@@ -21,10 +21,10 @@ export const Select = ({height = 30, color = '#d90368', options, center = false,
     return (
         <>
             {label && <Label>{label}</Label>}
-            <WrapperSelect height={height} color={color} center={center} onChange={(e) => result(e.target.value)}>
+            <WrapperSelect height={height} color={color} center={center} onChange={(e) => result(e.target.value)} defaultValue={selected ? selected : ''}>
                 {options.map((option) => {
                     return (
-                        <option selected={!!(selected && selected === option.value)} key={option.value} value={option.value}>{option.label}</option>
+                        <option key={option.value} value={option.value}>{option.label}</option>
                     )
                 })}
             </WrapperSelect>

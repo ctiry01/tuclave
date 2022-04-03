@@ -24,7 +24,6 @@ export const CardResult = ({
 }
 
 const Wrapper = styled.div<CardResultStyles>`
-  width: 100%;
   height: 80px;
   background: linear-gradient(90deg, ${({colorGradientInit}) => colorGradientInit} 0, ${({colorGradientEnd}) => colorGradientEnd});
   display: flex;

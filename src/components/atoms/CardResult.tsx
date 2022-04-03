@@ -31,13 +31,19 @@ const Wrapper = styled.div<CardResultStyles>`
   justify-content: center;
   align-items: center;
   border-radius: 12px;
+  padding: 8px;
 
   > p {
+    font-family: Kalam;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     text-align: center;
-    font-weight: bold;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+
+    @media screen and (max-width: 400px) {
+      font-size: 1.2rem;
+    }
   }
 `

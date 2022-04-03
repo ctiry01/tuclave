@@ -24,6 +24,7 @@ function generatePassword(length: number, chars: string | null) {
     for (let i = 0; i < length; i++) {
         res += charsType.charAt(Math.floor(Math.random() * charsType.length));
     }
+
     return res
 }
 
@@ -60,4 +61,5 @@ const Wrapper = styled.div`
 
 const TheButton = styled(Button)`
   margin-top: 1rem;
+  font-weight: bold;
 `

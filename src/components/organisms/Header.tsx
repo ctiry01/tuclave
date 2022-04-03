@@ -26,7 +26,7 @@ const Wrapper = styled.div`
 
 const SiteBrand = styled.span`
   color: whitesmoke;
-  font-family: Rubikbold, serif;
   font-size: 1.5rem;
   padding: 0 1rem;
+  font-weight: bold;
 `

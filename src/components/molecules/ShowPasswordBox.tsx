@@ -28,14 +28,13 @@ function calculatePasswordSecureLevel(password: string) {
         res -= res * 0.10
     }
 
-    return res
+    return res.toFixed(0)
 }
 
 export const ShowPasswordBox = ({result}: ShowPasswordBoxProps) => {
     const [clipboard, setClipBoard] = useState<boolean>(false)
 
     useEffect(() => {
-
         setTimeout(() => {
             setClipBoard(false)
         }, 10000)
@@ -50,7 +49,7 @@ export const ShowPasswordBox = ({result}: ShowPasswordBoxProps) => {
             }}>{clipboard ? '¡Contraseña copiada!' : 'Copiar contraseña al portapapeles'}</CustomButton>
             <CardResult>{result}</CardResult>
             <WrapperProgressbar>
-                <TitleProgress>Nivel de seguridad</TitleProgress>
+                <TitleProgress>Nivel de seguridad {calculatePasswordSecureLevel(result)}%</TitleProgress>
                 <ProgressBar color='#5c9ead' progress={calculatePasswordSecureLevel(result)}/>
             </WrapperProgressbar>
         </Wrapper>

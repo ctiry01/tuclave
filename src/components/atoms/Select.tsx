@@ -39,6 +39,7 @@ const WrapperSelect = styled.select<SelectStyles>`
   height: ${({height}) => height}px;
   border-radius: 3px 3px 0 0;
   font-weight: bold;
+  color: black;
 
   > option {
     text-align: ${({center}) => center ? 'center' : 'left'};

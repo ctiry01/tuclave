@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 interface ProgressBarProps {
-    progress?: number
+    progress?: number | string
     height?: number
     color?: string
 }
 
 interface ProgressBarStyles {
-    progress: number
+    progress: number | string
     height: number
     color: string
 }

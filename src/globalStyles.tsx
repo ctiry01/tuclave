@@ -1,22 +1,22 @@
 import {createGlobalStyle} from 'styled-components';
-import rubikRegular from "./assets/fonts/Rubik-Regular.ttf";
-import rubikSemiBold from "./assets/fonts/Rubik-SemiBold.ttf";
+import varelaRegular from "./assets/fonts/VarelaRound-Regular.ttf"
+import kalamRegular from "./assets/fonts/Kalam-Regular.ttf"
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
-    font-family: 'Rubik';
-    src: url(${rubikRegular}) format('truetype');
+    font-family: 'Varela';
+    src: url(${varelaRegular}) format('truetype');
   }
 
   @font-face {
-    font-family: 'Rubikbold';
-    src: url(${rubikSemiBold}) format('truetype');
+    font-family: 'Kalam';
+    src: url(${kalamRegular}) format('truetype');
   }
 
   body {
     margin: 0;
     padding: 0;
-    font-family: Rubik, Sans-Serif;
+    font-family: Varela, Sans-Serif;
     background-color: #EEEEEE;
     color: #212529;
   }
@@ -31,6 +31,10 @@ const GlobalStyle = createGlobalStyle`
   & a:hover {
     color: #326273;
     text-decoration: underline;
+  }
+  
+  select, button {
+    font-family: Varela, Sans-Serif;
   }
 
 `;

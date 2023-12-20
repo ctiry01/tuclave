@@ -1,46 +1,100 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <br>
+  <a href="#"><img src="https://d3flqabeiwkpwe.cloudfront.net/reactjs-logo.png" alt="Reactjs logo" width="200"></a>
+  <br>
+  Tuclave
+  <br>
+</h1>
 
-## Available Scripts
+<h4 align="center">A minimal website for generate random passwords built with <a href="https://es.react.dev" target="_blank">React</a>.</h4>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://es.react.dev" target="_blank">
+    <img src="https://d3flqabeiwkpwe.cloudfront.net/badges/react-badge.svg"
+         alt="React">
+  </a>
+  <a href="https://www.npmjs.com" target="_blank">
+    <img src="https://d3flqabeiwkpwe.cloudfront.net/badges/npm-badge.svg"
+         alt="Npm">
+  </a>
+  <a href="https://nodejs.org/en" target="_blank">
+    <img src="https://d3flqabeiwkpwe.cloudfront.net/badges/nodejs-badge.svg"
+         alt="Node">
+  </a>
+</p>
 
-### `npm start`
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#website-deployment">Website deployment</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#support">Support</a> •
+  <a href="#license">License</a> •
+  <a href="#contact">Contact</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![screenshot](https://d3flqabeiwkpwe.cloudfront.net/gifs/tuclave-screenshots.gif)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Key Features
 
-### `npm test`
+* Built with react
+    - React is a JavaScript library for building user interfaces.
+* Without frameworks
+    - No frameworks, only react library. With old npx create-react-app.
+* Atomic design
+    - Atomic design is methodology for creating design systems.
+* Generate random passwords fast
+    - Generate random passwords with a some options for made.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Website deployment
+[>>> Tuclave](https://tuclave.tiry-dev.com)
 
-### `npm run build`
+## How To Use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone this repository
+$ git clone git@github.com:ctiry01/tuclave.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Go into the repository
+$ cd tuclave
 
-### `npm run eject`
+# Install dependencies
+$ npm i
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Run the app
+$ npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> **Note:**
+> Enjoy this app! 😃
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Credits
 
-## Learn More
+This software uses the following open source packages:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React](https://es.react.dev)
+- [Node](https://nodejs.org/)
+- [Npm](https://www.npmjs.com)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Support
+
+<a href="https://www.buymeacoffee.com/ctiry01q" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
+
+## License
+
+MIT
+
+---
+
+
+## Contact
+> [tiry-dev.com](https://tiry-dev.com) &nbsp;&middot;&nbsp;
+> GitHub [@ctiry01](https://github.com/ctiry01) &nbsp;&middot;&nbsp;
+> Linkedin [Cristian Tiry](https://www.linkedin.com/in/cristian-tiry-3823811a8/)
+

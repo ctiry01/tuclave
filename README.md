@@ -14,6 +14,10 @@
     <img src="https://d3flqabeiwkpwe.cloudfront.net/badges/react-badge.svg"
          alt="React">
   </a>
+  <a href="https://www.typescriptlang.org" target="_blank">
+      <img src="https://d3flqabeiwkpwe.cloudfront.net/badges/typescript-badge.svg"
+           alt="React">
+  </a>
   <a href="https://www.npmjs.com" target="_blank">
     <img src="https://d3flqabeiwkpwe.cloudfront.net/badges/npm-badge.svg"
          alt="Npm">
